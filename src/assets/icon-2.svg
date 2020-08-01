@@ -1,0 +1,6 @@
+<svg width="64" height="64" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 30H30C52.0914 30 70 47.9086 70 70V100" stroke="black" stroke-width="8"/>
+<line x1="85" y1="69.75" x2="29.5" y2="69.75" stroke="#BD3737" stroke-width="1.5"/>
+<line x1="30.5242" y1="69.9151" x2="72.9506" y2="27.4887" stroke="#BD3737" stroke-width="1.5"/>
+<line x1="30.25" y1="70" x2="30.25" y2="15" stroke="#BD3737" stroke-width="1.5"/>
+</svg>

@@ -1,0 +1,18 @@
+<svg width="64" height="64" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<line x1="90" y1="20.25" x2="10" y2="20.25" stroke="black" stroke-opacity="0.3" stroke-width="0.5" stroke-dasharray="1.5 1.5"/>
+<line x1="90" y1="79.25" x2="10" y2="79.25" stroke="black" stroke-opacity="0.3" stroke-width="0.5" stroke-dasharray="1.5 1.5"/>
+<line x1="79.75" y1="90" x2="79.75" y2="10" stroke="black" stroke-opacity="0.3" stroke-width="0.5" stroke-dasharray="1.5 1.5"/>
+<line x1="14.4679" y1="85.1786" x2="85.1786" y2="14.4679" stroke="black" stroke-opacity="0.3" stroke-width="0.5" stroke-dasharray="1.5 1.5"/>
+<line x1="14.8214" y1="14.4679" x2="85.5321" y2="85.1786" stroke="black" stroke-opacity="0.3" stroke-width="0.5" stroke-dasharray="1.5 1.5"/>
+<line x1="59.75" y1="85" x2="59.75" y2="15" stroke="black" stroke-opacity="0.3" stroke-width="0.5" stroke-dasharray="1.5 1.5"/>
+<line x1="40.75" y1="85" x2="40.75" y2="15" stroke="black" stroke-opacity="0.3" stroke-width="0.5" stroke-dasharray="1.5 1.5"/>
+<path d="M15 40.5H85" stroke="black" stroke-opacity="0.3" stroke-width="0.5" stroke-dasharray="1.5 1.5"/>
+<path d="M15 30.5H85" stroke="black" stroke-opacity="0.3" stroke-width="0.5" stroke-dasharray="1.5 1.5"/>
+<path d="M15 59.5H85" stroke="black" stroke-opacity="0.3" stroke-width="0.5" stroke-dasharray="1.5 1.5"/>
+<line x1="20.75" y1="90" x2="20.75" y2="10" stroke="black" stroke-opacity="0.3" stroke-width="0.5" stroke-dasharray="1.5 1.5"/>
+<circle cx="50" cy="50" r="24.75" stroke="black" stroke-opacity="0.3" stroke-width="0.5" stroke-dasharray="1.5 1.5"/>
+<rect x="15.75" y="15.75" width="68.5" height="68.5" rx="9.25" stroke="black" stroke-width="1.5"/>
+<circle cx="50" cy="50" r="9.25" stroke="black" stroke-width="1.5"/>
+<circle cx="50" cy="50" r="14.25" stroke="black" stroke-width="1.5"/>
+<circle cx="50" cy="50" r="29.25" stroke="black" stroke-width="1.5"/>
+</svg>
