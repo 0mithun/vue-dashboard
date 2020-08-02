@@ -63,7 +63,7 @@ export default {
 }
 
 .toggle-right {
-  transform: translateX(90%);
+  transform: translateX(67%);
   background: #1b233f;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
