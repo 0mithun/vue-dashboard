@@ -10,14 +10,14 @@ $system-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
   color: $color;
 }
 
-@mixin heading-2 ($color: $white){
+@mixin heading-2($color: $white) {
   font-size: 60px;
   line-height: 86px;
   font-weight: bold;
   color: $color;
 }
 
-@mixin heading-3 ($color: $white){
+@mixin heading-3($color: $white) {
   font-size: 30px;
   line-height: 43px;
   font-weight: bold;
@@ -37,31 +37,28 @@ $system-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
   font-size: 24px;
   line-height: 37px;
 }
-@mixin large-text ($color: $white){
+@mixin large-text($color: $white) {
   @extend %large;
   color: $color;
 }
 
 @mixin large-text-bold($color: $white) {
-    @extend %large;
-    font-weight: bold;
-    color: $color;
+  @extend %large;
+  font-weight: bold;
+  color: $color;
 }
 
-
-
 %mediuum {
-    font-size: 31px;
-    line-height: 20px;
-  }
-  @mixin medium-text ($color: $white){
-    @extend %mediuum;
-    color: $color;
-  }
-  
-  @mixin medium-text-bold($color: $white) {
-      @extend %mediuum;
-      font-weight: bold;
-      color: $color;
-  }
-  
+  font-size: 20px;
+  line-height: 31px;
+}
+@mixin medium-text($color: $white) {
+  @extend %mediuum;
+  color: $color;
+}
+
+@mixin medium-text-bold($color: $white) {
+  @extend %mediuum;
+  font-weight: bold;
+  color: $color;
+}

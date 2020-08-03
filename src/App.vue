@@ -1,5 +1,8 @@
 <template>
-  <div id="app">
+  <div
+    id="app"
+    :class="{ 'light-background': !isDarkMode, 'dark-background': isDarkMode }"
+  >
     <router-view />
   </div>
 </template>
@@ -12,16 +15,27 @@ export default {
 
     document.body.style.background = isDarkMode ? "#212c4f" : "#f0f3f5";
   },
+  computed: {
+    isDarkMode() {
+      return this.$store.getters.isDarkMode;
+    },
+  },
 };
 </script>
 
 <style lang="scss">
 body {
   background-color: $dark-blue;
+  margin: 0;
 }
 
 * {
   transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+line,
+text {
+  opacity: 0.2;
 }
 #app {
   // font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -39,24 +53,19 @@ p {
   @include large-text-bold;
 }
 
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: $white;
-    }
-  }
-}
-
 .light-background {
   background-color: $light-grey;
+  line,
+  text {
+    stroke: $dark-grey;
+  }
 }
 .dark-background {
   background-color: $dark-blue;
+  line,
+  text {
+    stroke: $light-grey;
+  }
 }
 
 .light-text {
@@ -139,5 +148,15 @@ a {
 
 .dark-link {
   color: rgba(0, 0, 0, 0.3);
+}
+
+.light-box {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.dark-box {
+  background-color: rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 </style>
