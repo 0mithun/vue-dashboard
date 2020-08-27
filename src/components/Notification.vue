@@ -1,7 +1,6 @@
 <template>
   <div class="bubble">
     <div class="message">
-      <h3>This is a test</h3>
       {{ text }}
     </div>
   </div>
